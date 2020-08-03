@@ -1,0 +1,10 @@
+#Dockerfile без Docker 
+
+FROM golang
+WORKDIR /go/src/github.com/BiteLikeASnake/products_microservise
+COPY . .
+ENV DB="user=postgres password=example dbname=online_shop sslmode=disable port=5432 host=db" \
+ADDRESS=":8081" \
+ADMIN_TOKEN="adminpass" \
+USER_TOKEN="userpass"
+RUN go install ./...
