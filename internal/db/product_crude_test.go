@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/BiteLikeASnake/products_microservise/internal/model"
+	"github.com/call-me-snake/products_microservise/internal/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

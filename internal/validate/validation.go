@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/BiteLikeASnake/products_microservise/internal/model"
+	"github.com/call-me-snake/products_microservise/internal/model"
 )
 
 func ValidateCategoryMap(params map[string]interface{}) error {

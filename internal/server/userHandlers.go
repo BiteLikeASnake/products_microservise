@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/BiteLikeASnake/products_microservise/internal/convert"
-	"github.com/BiteLikeASnake/products_microservise/internal/model"
+	"github.com/call-me-snake/products_microservise/internal/convert"
+	"github.com/call-me-snake/products_microservise/internal/model"
 	"github.com/gorilla/mux"
 )
 

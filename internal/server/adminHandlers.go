@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/BiteLikeASnake/products_microservise/internal/convert"
-	"github.com/BiteLikeASnake/products_microservise/internal/model"
-	response "github.com/BiteLikeASnake/products_microservise/internal/server/model"
+	"github.com/call-me-snake/products_microservise/internal/convert"
+	"github.com/call-me-snake/products_microservise/internal/model"
+	response "github.com/call-me-snake/products_microservise/internal/server/model"
 
 	"encoding/json"
 	"fmt"
@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/BiteLikeASnake/products_microservise/internal/validate"
+	"github.com/call-me-snake/products_microservise/internal/validate"
 
 	"github.com/gorilla/mux"
 )
