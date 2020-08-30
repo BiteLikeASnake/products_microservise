@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/BiteLikeASnake/products_microservise/internal/model"
+	"github.com/call-me-snake/products_microservise/internal/model"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 )

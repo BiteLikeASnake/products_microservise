@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/BiteLikeASnake/products_microservise/internal/model"
+	"github.com/call-me-snake/products_microservise/internal/model"
 	"github.com/gorilla/mux"
 )
 
