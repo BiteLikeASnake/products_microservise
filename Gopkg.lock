@@ -10,12 +10,12 @@
   version = "v1.1.1"
 
 [[projects]]
-  digest = "1:25ebe6496abb289ef977c081b2d49f56dd97c32db4ca083d37f95923909ced02"
+  digest = "1:6078383dbb7405bfa3ce16957f37564e3b716afa29b6eb45ffdb6674624d1e0d"
   name = "github.com/gorilla/mux"
   packages = ["."]
   pruneopts = "UT"
-  revision = "75dcda0896e109a2a22c9315bca3bb21b87b2ba5"
-  version = "v1.7.4"
+  revision = "98cb6bf42e086f6af920b965c38cacc07402d51b"
+  version = "v1.8.0"
 
 [[projects]]
   digest = "1:a2cff208d4759f6ba1b1cd228587b0a1869f95f22542ec9cd17fff64430113c7"
@@ -26,15 +26,15 @@
   version = "v1.4.0"
 
 [[projects]]
-  digest = "1:d0a8c44a1ecde6167c84049206de46bed4312f8c3504054d3900ffdce0712ace"
+  digest = "1:e505c26e1b30391dd9cd96727f78cd667bcf10fef7c1548ca754d4f50905a55e"
   name = "github.com/jinzhu/gorm"
   packages = [
     ".",
     "dialects/postgres",
   ]
   pruneopts = "UT"
-  revision = "bf55f358c25885d2f4dc97d8a3a46b0c445288b9"
-  version = "v1.9.15"
+  revision = "6f4358eeb5e3df768c182ae54d90ceacff0880a8"
+  version = "v1.9.16"
 
 [[projects]]
   digest = "1:01ed62f8f4f574d8aff1d88caee113700a2b44c42351943fa73cc1808f736a50"
@@ -56,7 +56,7 @@
   version = "v0.3.0"
 
 [[projects]]
-  digest = "1:1341b81c62c7a033160fa4ea7cd992e01e967bf1a642966eeb1062556933f7a0"
+  digest = "1:a40b57e466a0caf149e1c354c6ff820ff9cff2ebe4e10b4270100a4ad0d7e928"
   name = "github.com/lib/pq"
   packages = [
     ".",
@@ -65,8 +65,8 @@
     "scram",
   ]
   pruneopts = "UT"
-  revision = "984a6aa1ca4673778a2965cb1dc74bd070dc8818"
-  version = "v1.7.1"
+  revision = "e7751f584844fbf92a5a18b13a0af1c855e34460"
+  version = "v1.8.0"
 
 [[projects]]
   digest = "1:864f9b9a3bc9255934cbb5e94d5f761d726085894915403289fbae6fb3415f98"
@@ -113,23 +113,23 @@
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:a1e51ed5e3d6f1ff5510149dce40c30c537f32ab2ea42e449ccdb8264b912647"
+  digest = "1:d724474523928294ece8cc97e8d2371f27c7e6d3068bfa9ace93bd3105b4fdbd"
   name = "github.com/valyala/fasttemplate"
   packages = ["."]
   pruneopts = "UT"
-  revision = "10bd7db1dd9b0f3c5193837782330f4131dfa620"
-  version = "v1.2.0"
+  revision = "2275c48ed3e40f01fa347e220be31070a89b6ad4"
+  version = "v1.2.1"
 
 [[projects]]
   branch = "master"
-  digest = "1:ba579a2291aeee121f631ddef2cc1972b15ca1d5ca3221a54a28e084b07f73f6"
+  digest = "1:273d3fc83b06be03a7543a1e15bcba1a74ad82ffefc0b015305a1dd5b30a9c39"
   name = "golang.org/x/sys"
   packages = [
     "internal/unsafeheader",
     "unix",
   ]
   pruneopts = "UT"
-  revision = "76b94024e4b621e672466e8db3d7f084e7ddcad2"
+  revision = "157a740278f41cac851f88b8aebe047c6fc2414f"
 
 [[projects]]
   branch = "v3"
