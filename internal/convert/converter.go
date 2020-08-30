@@ -1,6 +1,6 @@
 package convert
 
-import "github.com/BiteLikeASnake/products_microservise/internal/model"
+import "github.com/call-me-snake/products_microservise/internal/model"
 
 //ConvertToAdminProduct
 //converts product.Product to admin.AdminProduct

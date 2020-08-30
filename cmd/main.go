@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/BiteLikeASnake/products_microservise/internal/db"
-	"github.com/BiteLikeASnake/products_microservise/internal/server"
+	"github.com/call-me-snake/products_microservise/internal/db"
+	"github.com/call-me-snake/products_microservise/internal/server"
 	"github.com/jessevdk/go-flags"
 
 	"github.com/labstack/gommon/log"
