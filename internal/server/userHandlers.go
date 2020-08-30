@@ -12,8 +12,6 @@ import (
 	"github.com/gorilla/mux"
 )
 
-//ошибка должна быть информативной -- а что мне писать в поле ошибки??
-
 func getProductsListUserHandler(db model.IDb) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		prodList, err := db.GetUserProductsList()
