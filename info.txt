@@ -8,3 +8,6 @@ ADDRESS=":8081" \
 ADMIN_TOKEN="adminpass" \
 USER_TOKEN="userpass"
 RUN go install ./...
+
+#Mockgen с командой:
+#mockgen "-source=internal/model/db_interface.go" "-destination=internal/model/mock/mock_db.go"

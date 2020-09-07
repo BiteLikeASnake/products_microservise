@@ -79,7 +79,7 @@ func getProductByIdAdminHandler(db model.IDb) http.HandlerFunc {
 		}
 		w.Header().Set("content-type", "application/json")
 		w.Write(res)
-		w.WriteHeader(http.StatusFound)
+
 	}
 }
 
